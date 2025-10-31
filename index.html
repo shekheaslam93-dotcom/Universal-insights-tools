@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Insights Tools - All AI Tools in One Place</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Universal Insights Tools</h1>
+                    <p class="tagline">All AI Tools in One Place</p>
+                </div>
+                <nav class="nav">
+                    <input type="text" id="searchInput" placeholder="Search tools..." class="search-input">
+                    <select id="categoryFilter" class="category-filter">
+                        <option value="all">All Categories</option>
+                    </select>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2 class="hero-title">Discover & Access 100+ AI Tools</h2>
+            <p class="hero-subtitle">Your ultimate directory for AI-powered tools across all categories</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="totalTools">0</span>
+                    <span class="stat-label">AI Tools</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="totalCategories">0</span>
+                    <span class="stat-label">Categories</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <div id="toolsContainer" class="tools-container">
+                <!-- Tools will be dynamically inserted here -->
+            </div>
+            <div id="noResults" class="no-results" style="display: none;">
+                <h3>No tools found</h3>
+                <p>Try adjusting your search or filter</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Universal Insights Tools. All rights reserved.</p>
+            <p>Empowering creativity and productivity with AI</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
